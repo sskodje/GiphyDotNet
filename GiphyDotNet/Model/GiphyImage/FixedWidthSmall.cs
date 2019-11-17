@@ -21,6 +21,12 @@ namespace GiphyDotNet.Model.GiphyImage
         [JsonProperty("size")]
         public string Size { get; set; }
 
+        [JsonProperty("mp4")]
+        public string Mp4 { get; set; }
+
+        [JsonProperty("mp4_size")]
+        public string Mp4Size { get; set; }
+
         [JsonProperty("webp")]
         public string Webp { get; set; }
 

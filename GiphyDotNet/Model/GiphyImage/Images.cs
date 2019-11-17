@@ -48,6 +48,18 @@ namespace GiphyDotNet.Model.GiphyImage
         [JsonProperty("downsized_large")]
         public DownsizedLarge DownsizedLarge { get; set; }
 
+        [JsonProperty("downsized_small")]
+        public DownsizedSmall DownsizedSmall { get; set; }
+
+        [JsonProperty("preview")]
+        public Preview Preview { get; set; }
+
+        [JsonProperty("preview_gif")]
+        public PreviewGif PreviewGif { get; set; }
+
+        [JsonProperty("looping")]
+        public Looping Looping { get; set; }
+
         [JsonProperty("original")]
         public Original Original { get; set; }
 
